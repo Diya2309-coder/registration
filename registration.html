@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=S, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 align="center">
+      <b><u> Level - 8</u></b>
+    </h1>
+    <h2 align="center"><b>Registration Form</b></h2>
+    <form action="input" name="input" class="form" align="center" id="form">
+      <table align="center" class="my-2" cellspacing="20px">
+        <!-- <div class="content"> -->
+          <tr>
+            <th>Name</th>
+            <br />
+            <td>
+              <input type="text" name="name" id="name" placeholder="Enter Your Full Name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>
+              <input
+                type="email" name="email" id="email" placeholder="Enter Email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>Password</th>
+            <td>
+              <input type="password" name="password" id="password" placeholder="Enter Password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>Dob</th>
+            <td><input type="date" name="dob" id="dob" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" name="agree" id="agree" />
+              <label for="checkbox"><b> Accept terms & condition?</b></label>
+            </td>
+          </tr>
+         
+        <!-- </div> -->
+      </table>
+      <!-- <tr> -->
+        <!-- <div class="btn" align="center" style="margin-top: 20px"> -->
+          <button type="submit" id="submit">Submit</button>
+        <!-- </div> -->
+      <!-- </tr> -->
+    </form>
+
+    <div class="entry" id="entry">
+      <h2 class="subHead" style="text-align: center">Entries</h2>
+      <div id="tableDiv" align="center"></div>
+    </div>
+  </body>
+</html>
